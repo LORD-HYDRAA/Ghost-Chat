@@ -1,0 +1,48 @@
+END USER LICENSE AGREEMENT (EULA)
+
+IMPORTANT — READ CAREFULLY: This End User License Agreement ("Agreement") is a legal
+agreement between you (an individual or a single entity) and LordHydra for the
+software product accompanying this Agreement (the "Software/tool").
+
+1. LICENSE GRANT
+   LordHydra / LORD-HYDRAA grants you a limited, revocable, non-transferable, non-sublicensable license
+   to use the Software strictly for internal purposes, only as expressly authorized in writing
+   by LordHydra.
+
+2. RESTRICTIONS
+   You MAY NOT:
+   a) Copy, reproduce, modify, adapt, translate, or create derivative works of the Software.
+   b) Distribute, sublicense, sell, lease, lend, or otherwise transfer the Software to any third party.
+   c) Reverse engineer, decompile, disassemble, or attempt to derive the source code.
+   d) Remove or alter any proprietary notices, including copyright or trademark statements.
+
+3. OWNERSHIP
+   The Software is licensed, not sold. LordHydra retains all right, title, and interest,
+   including intellectual property rights, under Indian law and applicable international treaties.
+
+4. CONFIDENTIALITY
+   You shall treat the Software and all related documentation as confidential
+   and shall not disclose or share it with any third party.
+
+5. TERMINATION
+   This Agreement is effective until terminated. LordHydra may terminate this Agreement
+   if you breach any term herein. Upon termination, you must immediately cease all use
+   and destroy all copies of the Software.
+
+6. DISCLAIMER OF WARRANTIES
+   The Software is provided "AS IS" without warranty of any kind, either express or implied,
+   including but not limited to warranties of merchantability, fitness for a particular purpose,
+   or non-infringement.
+
+7. LIMITATION OF LIABILITY
+   To the maximum extent permitted by law, LordHydra shall not be liable for any direct,
+   indirect, incidental, special, or consequential damages arising out of use or inability
+   to use the Software.
+
+8. GOVERNING LAW AND JURISDICTION
+   This Agreement is governed by the laws of India. Any disputes arising under this Agreement
+   shall be subject to the exclusive jurisdiction of the courts of India.
+
+Contact:
+LordHydra / LORD-HYDRAA
+Contact: zk6026925@gmail.com
