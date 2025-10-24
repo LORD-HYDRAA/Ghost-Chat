@@ -1,0 +1,13 @@
+Usage Examples:
+Host a chat:
+
+bash
+./run.sh -host -key "myOuterKey123" -inner "myInnerKey456" -chat "myChatKey789" -username "Alice"
+Join a chat:
+
+bash
+./run.sh -join -key "myOuterKey123" -inner "myInnerKey456" -chat "myChatKey789" -username "Bob" -address "abc123def456.onion"
+
+
+// © 2025 LordHydra. All Rights Reserved.
+// Proprietary & Confidential. Do not copy, share, or modify.
