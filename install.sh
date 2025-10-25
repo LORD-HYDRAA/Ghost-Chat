@@ -73,9 +73,10 @@ echo ""
 echo "✅ Setup complete! Ghost Chat is ready to use."
 echo ""
 echo "Quick Start:"
-echo "  source ghost_env/bin/activate"
-echo "  sudo -E ./run.sh -host -key 'key1' -inner 'key2' -chat 'key3' -username 'Alice'"
+echo "  sudo -E ./run.sh -host -key 'key1' -inner 'key2' -chat 'key3' -username 'Name'"
 echo ""
+echo "For help:"
+echo "  ./run.sh -help"
 
 
 #  © 2025 LordHydra. All Rights Reserved.
