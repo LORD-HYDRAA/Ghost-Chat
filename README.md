@@ -9,7 +9,7 @@
 
 ## 📖 Overview
 
-Ghost Chat is an **ultra-secure, ephemeral chat system** that operates entirely in RAM with zero disk writes. It combines military-grade encryption with Tor anonymity and your own custom secret language.
+Ghost Chat is an **secure, ephemeral chat system** that operates entirely in RAM with zero disk writes. It combines military-grade encryption with Tor anonymity and your own custom secret language.
 
 ## ✨ Features
 
