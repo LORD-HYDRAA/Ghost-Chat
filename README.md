@@ -33,6 +33,7 @@ Ghost Chat is an **ultra-secure, ephemeral chat system** that operates entirely 
 # Clone the repository
 git clone https://github.com/LORD-HYDRAA/Ghost-Chat
 cd ghost-chat
+./install.sh
 
 # Host a chat room
 sudo -E ./run.sh -host -key "your_outer_key" -inner "your_inner_key" -chat "your_chat_key" -username "YourName"
