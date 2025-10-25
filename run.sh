@@ -1,11 +1,21 @@
-echo -ne "\033]10;#00ff00\007"  
-echo -ne "\033]11;#000000\007" 
+#!/bin/sh
+
+
+echo "-ne \\033]10;#00ff00\\007"  
+echo "-ne \\033]11;#000000\\007" 
+
 # © 2025 LordHydra. All Rights Reserved.
 # Proprietary & Confidential. Do not copy, share, or modify.
 
-source ghost_env/bin/activate
 
+if [ -f "ghost_env/bin/activate" ]; then
+    . ghost_env/bin/activate
+else
+    echo "❌ Virtual environment not found. Run ./install.sh first."
+    exit 1
+fi
 
+# Default values
 MODE=""
 OUTER_KEY=""
 INNER_KEY=""
@@ -35,7 +45,7 @@ show_help() {
 }
 
 
-while [[ $# -gt 0 ]]; do
+while [ $# -gt 0 ]; do
     case $1 in
         -host)
             MODE="host"
@@ -85,26 +95,26 @@ while [[ $# -gt 0 ]]; do
     esac
 done
 
-# Validate required arguments
-if [[ -z "$MODE" ]]; then
+
+if [ -z "$MODE" ]; then
     echo "Error: Must specify -host or -join mode"
     show_help
     exit 1
 fi
 
-if [[ -z "$OUTER_KEY" || -z "$INNER_KEY" || -z "$CHAT_KEY" ]]; then
+if [ -z "$OUTER_KEY" ] || [ -z "$INNER_KEY" ] || [ -z "$CHAT_KEY" ]; then
     echo "Error: All three keys (key, inner, chat) are required"
     show_help
     exit 1
 fi
 
-if [[ -z "$USERNAME" ]]; then
+if [ -z "$USERNAME" ]; then
     echo "Error: Username is required"
     show_help
     exit 1
 fi
 
-if [[ "$MODE" == "join" && -z "$ONION_ADDRESS" ]]; then
+if [ "$MODE" = "join" ] && [ -z "$ONION_ADDRESS" ]; then
     echo "Error: Onion address required for join mode"
     show_help
     exit 1
@@ -122,9 +132,8 @@ python ghost_chat.py \
     --port "$CHAT_PORT" \
     --tor-port "$TOR_PORT"
 
-
-echo -ne "\033]10;#ffffff\007"  
-echo -ne "\033]11;#000000\007" 
+echo "-ne \\033]10;#ffffff\\007"  
+echo "-ne \\033]11;#000000\\007"
 
 # © 2025 LordHydra. All Rights Reserved.
 # Proprietary & Confidential. Do not copy, share, or modify.
