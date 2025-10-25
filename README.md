@@ -31,7 +31,7 @@ Ghost Chat is an **ultra-secure, ephemeral chat system** that operates entirely 
 
 ```bash
 # Clone the repository
-git clone https://github.com/lordhydra/ghost-chat.git
+git clone https://github.com/LORD-HYDRAA/Ghost-Chat
 cd ghost-chat
 
 # Host a chat room
