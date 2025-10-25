@@ -88,7 +88,7 @@ class GhostChat:
       Created by Lord Hydra (Mohammed Zaid Khan) 
 ─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
 \033[0m
-\033[91m⚠️ Use Ghost Chat responsibly. The author has nothing to do with your legal or illegal actions.\033[0m
+\033[91m Use Ghost Chat responsibly. The author has nothing to do with your legal or illegal actions.\033[0m
 """
 
         lines = banner.splitlines()
@@ -260,3 +260,4 @@ if __name__ == "__main__":
 # © 2025 LordHydra. All Rights Reserved.
 
 # Proprietary & Confidential. Do not copy, share, or modify.
+
